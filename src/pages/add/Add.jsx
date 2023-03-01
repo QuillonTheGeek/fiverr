@@ -1,4 +1,6 @@
-import '../add.scss'
+import './Add.scss';
+import React from 'react';
+
 
 
 const Add = () => {

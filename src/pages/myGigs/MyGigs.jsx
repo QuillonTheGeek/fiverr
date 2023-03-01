@@ -1,4 +1,5 @@
-import '../MyGigs.scss'
+import './MyGigs.scss';
+import React from 'react';
 
 const MyGigs = () => {
   return (

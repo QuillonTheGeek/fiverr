@@ -1,4 +1,5 @@
-import '../Home.scss'
+import './Home.scss';
+import React from 'react';
 
 const Home = () => {
   return (
