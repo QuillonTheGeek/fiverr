@@ -36,8 +36,8 @@ const Navbar = () => {
             <div className="logo">
                 <Link to='/' className='link'>
                 <span className='text'>fiverr</span>
-                </Link>
                 <span className='dot'>.</span>
+                </Link>
             </div>
             <div className="links">
                 <span>Fiverr business</span>
