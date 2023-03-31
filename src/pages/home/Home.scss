@@ -1,0 +1,132 @@
+.home {
+
+    .features {
+        background-color: #f1fdf7;
+        display: flex;
+        justify-content: center;
+        padding: 100px 0px;
+
+        &.dark {
+            font-family: 'Roboto' serif;
+            background-color: #0d084d;
+            color: white;
+
+            .letter {
+                display: flex;
+
+
+                h1 {
+                    font-size: 30px !important;
+                    font-weight: 900 !important;
+                    color: white !important;
+                    margin: 0 !important;
+                    padding-right: 3px;
+                }
+
+                h3 {
+                    font-size: 30px !important;
+                    font-weight: 300 !important;
+                    margin: 0 !important;
+                }
+            }
+
+            h2 {
+                font-size: 35px !important;
+                color: white !important;
+                margin-top: 0 !important;
+            }
+
+            p {
+                color: white !important;
+                margin-bottom: 20px !important;
+            }
+
+            .title {
+                color: white !important;
+                font-weight: 300 !important;
+                font-size: 18px !important;
+                padding-bottom: 3px;
+            }
+
+            img {
+                width: 100%;
+            }
+
+            button {
+                background-color: #1dbf73;
+                color: white;
+                padding: 10px 20px;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+                margin-top: 20px;
+                border: none;
+                width: max-content;
+
+            }
+        }
+
+        .container {
+            width: 1400px;
+            display: flex;
+            align-items: center;
+            gap: 200px;
+            padding: 0 15px;
+            // font-family: 'Montserrat', sans-serif;
+
+            .item {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+
+
+                &:first-child {
+                    flex: 2;
+                }
+
+                &:last-child {
+                    flex: 3;
+                }
+
+                h1 {
+                    font-weight: 700;
+                    margin-bottom: 10px;
+                    color: rgb(75, 71, 69);
+                    letter-spacing: 1px;
+                    font-size: 2.2rem;
+                    margin-bottom: 3px;
+                }
+
+                p {
+                    margin-top: 0;
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: rgb(89, 90, 95);
+                    line-height: 28px;
+                    letter-spacing: 1px;
+
+                }
+
+                .title {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    font-weight: 700;
+                    font-size: 20px;
+                    color: rgb(55, 54, 53);
+
+                    img {
+                        width: 24px;
+                        height: 24px;
+                        color: rgb(55, 54, 53);
+                    }
+                }
+
+                video {
+                    width: 720px;
+
+                }
+            }
+        }
+    }
+}
